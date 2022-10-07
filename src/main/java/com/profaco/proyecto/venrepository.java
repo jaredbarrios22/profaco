@@ -2,6 +2,6 @@ package com.profaco.proyecto;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface torepository extends JpaRepository<toentity, String> {
+public interface venrepository extends JpaRepository<venentity, String> {
     
 }

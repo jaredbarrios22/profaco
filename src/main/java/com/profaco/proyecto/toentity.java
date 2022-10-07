@@ -19,8 +19,8 @@ public class toentity{
      Integer zona;
      String email;
      Integer telefono;
-    public toentity(){
-
+   
+     public toentity(){
     }
 
     public toentity(String usuario, String contrasena,String nombre, String apellido, String direccion, Integer municipio,
@@ -117,9 +117,6 @@ public class toentity{
     public void setTelefono(Integer telefono) {
         this.telefono = telefono;
     }
-
-     
-   
-     
+    
     
 }
