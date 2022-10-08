@@ -10,7 +10,7 @@ import java.util.Optional;
 
 
 //@CrossOrigin(origins = "http://localhost:4200")
-//@CrossOrigin(origins = "")
+@CrossOrigin(origins = "https://profacofe.azurewebsites.net")
 @RestController
 @RequestMapping(path="/productos")
 public class prodcontroller {

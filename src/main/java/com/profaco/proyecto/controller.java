@@ -11,7 +11,7 @@ import java.util.Optional;
 
 
 //@CrossOrigin(origins = "http://localhost:4200")
-//@CrossOrigin(origins = "")
+@CrossOrigin(origins = "https://profacofe.azurewebsites.net")
 @RestController
 @RequestMapping(path="/usuario")
 public class controller {
