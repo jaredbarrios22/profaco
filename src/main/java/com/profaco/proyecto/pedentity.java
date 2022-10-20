@@ -17,8 +17,6 @@ public class pedentity {
      @Id
      Integer no_pedido;
      String estado_pedido;
-     Integer producto;
-     Integer cantidad;
      Date fecha_pedido;
      String nombre_cliente;
      String apellido_cliente;
@@ -35,8 +33,6 @@ public class pedentity {
 
     public pedentity(Integer no_pedido,
      String estado_pedido,
-     Integer producto,
-     Integer cantidad,
      Date fecha_pedido,
      String nombre_cliente,
      String apellido_cliente,
@@ -44,8 +40,6 @@ public class pedentity {
         super();     
         this.no_pedido = no_pedido;
         this.estado_pedido = estado_pedido;
-        this.producto = producto;
-        this.cantidad = cantidad;
         this.fecha_pedido = fecha_pedido;
         this.nombre_cliente = nombre_cliente;
         this.apellido_cliente = apellido_cliente;
@@ -71,22 +65,6 @@ public class pedentity {
 
     public void setEstado_pedido(String estado_pedido) {
         this.estado_pedido = estado_pedido;
-    }
-
-    public Integer getProducto() {
-        return producto;
-    }
-
-    public void setProducto(Integer producto) {
-        this.producto = producto;
-    }
-
-    public Integer getCantidad() {
-        return cantidad;
-    }
-
-    public void setCantidad(Integer cantidad) {
-        this.cantidad = cantidad;
     }
 
     public Date getFecha_pedido() {

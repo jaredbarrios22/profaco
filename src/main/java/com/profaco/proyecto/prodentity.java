@@ -19,6 +19,8 @@ public class prodentity {
     String descripcion_producto;
     Integer cantidad;
     Integer estado_producto;
+    Integer precio;
+    String imagen;
     
     public prodentity(){
         
@@ -30,12 +32,14 @@ public class prodentity {
     String nombre_producto,
     String descripcion_producto,
     Integer cantidad,
-    Integer estado_producto){
+    Integer estado_producto, Integer precio, String imagen){
         this.codigo_producto = codigo_producto;
         this.nombre_producto = nombre_producto;
         this.descripcion_producto = descripcion_producto;
         this.cantidad = cantidad;
         this.estado_producto = estado_producto;
+        this.precio = precio;
+        this.imagen = imagen;
    }
 
     public Integer getCodigo_producto() {
@@ -76,6 +80,22 @@ public class prodentity {
 
     public void setEstado_producto(Integer estado_producto) {
         this.estado_producto = estado_producto;
+    }
+
+    public Integer getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(Integer precio) {
+        this.precio = precio;
+    }
+
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
     }
 
      
